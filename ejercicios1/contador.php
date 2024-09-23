@@ -9,7 +9,7 @@
 <body>
     <h1>Ejercicio 6</h1>
     <?php
-
+echo "<h2>Cuenta del 1 al 100</h2> <br>";
     for ($i = 0; $i < 101; $i++) {
 
         if ($i == 100) {
@@ -20,6 +20,8 @@
     }
     $n = 10;
     echo "<br>";
+    echo "<h2>Cuenta del 10 al 0</h2> <br>";
+
     while ($n >= 0) {
         if ($n == 0) {
             echo $n;
