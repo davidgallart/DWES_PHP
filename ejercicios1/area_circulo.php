@@ -9,7 +9,7 @@
 <body>
     <h1>Pagina de bienvenida</h1>
     <?php
-    $radio = 3.5;
+    $radio = 3.5e2;
     define('PI',3.1416);
     $area = PI * $radio;
 
